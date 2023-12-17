@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    list-style: none;
+    color: #EEE2DE;
+}
+
+body{
+    background: #2B2A4C;
+}
+
+/* INICIO */
+#inicio h1{
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#inicio div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio div button{
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#inicio div button:hover{
+    background: #EA906C;
+    cursor: pointer;
+}
+
+/* JUEGO */
+
+#juego{
+    max-width: 800px;
+    margin: auto;
+}
+
+#juego h2{
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+#juego #seccionEleccion{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px ;
+    border-bottom: 2px solid #B31312;
+}
+
+#juego #seccionEleccion p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+#juego #seccionEleccion ul{
+    padding: 10px;
+    display: flex;
+}
+
+#juego #seccionEleccion ul li{
+    margin: 5px;
+    padding: 5px;
+}
+
+#juego #seccionEleccion ul li button{
+    background: white;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#juego #seccionEleccion ul li button:hover{
+    cursor: pointer;
+    background: #EA906C;
+
+}
+
+#juego #contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+#juego #contenedor p{
+    margin: 10px;
+    padding: 10px;
+}
+
+#juego p{
+    margin: 5px;
+    
+}
+
+#juego p #mensaje{
+    font-size: 20px;
+    text-align: center;
+}
+
+#juego div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#juego div #reinicio{
+    margin-top: 20px;
+    padding: 5px;
+    color: black;
+    background: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#juego div #reinicio:hover{
+    color: black;
+    background: #EA906C;
+    cursor: pointer;
+    
+}
+
+@media (max-width: 770px) {
+    #inicio h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    #juego #seccionEleccion p{
+        font-size: 15px;
+        text-align: center;
+    }
+    #juego #seccionEleccion ul li button{
+        font-size: 15px;
+    }
+    #juego p #mensaje{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Css/Style.css">
+        <title>Piedra, Papel y Tijera</title>
+    </head>
+    <body>
+        <section id="inicio">
+            <h1>Bienvenido a Piedra 🪨, Papel 📜 y Tijeras ✂️</h1>
+            <div>
+                <button id="iniciar-juego">Iniciar Juego</button>
+            </div>
+        </section>
+        
+        <section id="juego">
+
+            <div>
+                <h2>Bueno, vamo'a jugar</h2>
+            </div>
+
+            <div id="seccionEleccion">
+                <p>Escoge una opcion:</p>
+                    <ul>
+                        <li><button id="piedra">Piedra 🪨</button></li>
+                        <li><button id="papel">Papel 📜</button></li>
+                        <li><button id="tijera">Tijera ✂️</button></li>
+                    </ul>
+            </div>
+
+
+            <div id="contenedor">
+                <p>Elegiste <span id="eleccion">...</span></p>
+                <p>Tu oponente eligio <span id="eleccionPc">...</span></p>
+            </div>
+            <p><span id="mensaje"></span></p>
+
+            <div id="final">
+                <button id="reinicio">Reiniciar Juego</button>
+            </div>
+        </section>
+
+        <script src="JavaScript/Script.js"></script>
+    </body>
+</html>
